@@ -7,9 +7,10 @@ An open-source repository bridging rigorous competitive mathematics (Italian Mat
 
 ## Repository Structure
 
-- `content/01_algebra/`: Functional equations, inequalities (AM-GM, Cauchy-Schwarz), and polynomials.
-- `content/02_combinatoria/`: Advanced counting, pigeonhole principle, and recursive relations.
-- `content/03_teoria_dei_numeri/`: Modular arithmetic, congruences, and computational number theory.
+- `algebra/`: Core algebraic identities, factoring, and basic inequalities.
+- `combinatorics/`: Permutations, combinations, and foundational counting principles.
+- `number_theory/`: Divisibility, factors, and the Euclidean algorithm for GCD.
+- `geometry/`: Triangle properties, angle chasing, and basic side inequalities.
 
 ## Purpose
 This project translates theoretical problem-solving strategies from high-level training sessions into structured, reproducible modules, combining mathematical proof intuition with Python scripts.
