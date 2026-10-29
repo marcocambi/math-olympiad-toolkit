@@ -9,8 +9,8 @@ An open-source repository bridging rigorous competitive mathematics (Italian Mat
 
 - `algebra/`: Core algebraic identities, factoring, and basic inequalities.
 - `combinatorics/`: Permutations, combinations, and foundational counting principles.
-- `number_theory/`: Divisibility, factors, and the Euclidean algorithm for GCD.
 - `geometry/`: Triangle properties, angle chasing, and basic side inequalities.
+- `number_theory/`: Divisibility, factors, and the Euclidean algorithm for GCD.
 
 ## Purpose
 This project translates theoretical problem-solving strategies from high-level training sessions into structured, reproducible modules, combining mathematical proof intuition with Python scripts.
