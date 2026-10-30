@@ -1,4 +1,3 @@
-'''markdown
 # Core Algebraic Identities
 
 ## Quick Overview
