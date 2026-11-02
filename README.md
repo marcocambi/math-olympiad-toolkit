@@ -14,3 +14,16 @@ An open-source repository bridging rigorous competitive mathematics (Italian Mat
 
 ## Purpose
 This project translates theoretical problem-solving strategies from high-level training sessions into structured, reproducible modules, combining mathematical proof intuition with Python scripts.
+
+## 🚀 Getting Started & Usage
+
+### 🌟 How to Support
+If you find this repository helpful for your math contest preparation:
+- **Star (⭐)** the repository on GitHub to show your support and help others discover it!
+- **Fork (🍴)** the repository to make your own copy, customize it, or add your personal notes.
+
+### 💻 How to Run the Python Scripts
+1. Clone the repository to your local machine:
+   ```bash
+   git clone [https://github.com/marcocambi/math-olympiad-toolkit.git](https://github.com/marcocambi/math-olympiad-toolkit.git)
+   cd math-olympiad-toolkit
