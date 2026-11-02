@@ -1,23 +1,24 @@
-```markdown
 # Core Algebraic Identities
 
 ## Quick Overview
-In algebra problems, factoring and expanding expressions quickly is half the battle. Knowing your identities by heart saves precious time during contests.
+In algebra problems, factoring and expanding expressions quickly is the key. Knowing your identities by heart saves time during contests.
 
-## Essential Formulas
-- **Difference of Squares:** 
-  $$a^2 - b^2 = (a - b)(a + b)$$
-- **Square of a Binomial:** 
-  $$(a \pm b)^2 = a^2 \pm 2ab + b^2$$
+## Core Formulas
+- **Difference of Squares:** a^2 - b^2 = (a - b) * (a + b)
+- **Square of a Binomial:** (a ± b)^2 = a^2 ± 2ab + b^2
 
 ## Python Check
-A simple script using basic math operations to verify the difference of squares:
+A simple script to verify the difference of squares:
 
 ```python
 def verify_diff_of_squares(a: int, b: int) -> bool:
-    left_side = (a * a) - (b * b)
-    right_side = (a - b) * (a + b)
-    return left_side == right_side
+    left = (a * a) - (b * b)
+    right = (a - b) * (a + b)
+    return left == right
+
 
 if __name__ == "__main__":
-    print("Identity holds:", verify_diff_of_squares(9, 4))
+    a_val = 9
+    b_val = 4
+    result = verify_diff_of_squares(a_val, b_val)
+    print("Identity holds:", result)
