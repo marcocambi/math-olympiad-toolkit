@@ -4,8 +4,8 @@
 In algebra problems, factoring and expanding expressions quickly is the key. Knowing your identities by heart saves time during contests.
 
 ## Core Formulas
-- **Difference of Squares:** a^2 - b^2 = (a - b) * (a + b)
-- **Square of a Binomial:** (a ± b)^2 = a^2 ± 2ab + b^2
+- **Difference of Squares:** a² - b² = (a - b) * (a + b)
+- **Square of a Binomial:** (a ± b)² = a² ± 2ab + b²
 
 ## Python Check
 A simple script to verify the difference of squares:
