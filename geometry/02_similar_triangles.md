@@ -1,4 +1,3 @@
-```markdown
 # Similar Triangles & Proportions
 
 ## Quick Overview
