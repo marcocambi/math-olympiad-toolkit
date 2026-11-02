@@ -1,17 +1,14 @@
 ```markdown
-# Polynomials and Vieta's Formulas
+# Polynomials & Vieta's Formulas
 
 ## Quick Overview
 Polynomial manipulation and the relationship between coefficients and roots are vital for algebra problems in math contests.
 
-## Core Concepts
-- **Division Algorithm:** For polynomials $P(x)$ and $D(x)$ with $\deg(D) \le \deg(P)$, there exist unique polynomials $Q(x)$ and $R(x)$ such that:
-  $$P(x) = D(x) \cdot Q(x) + R(x)$$
-- **Vieta's Formulas (Quadratic Case $ax^2 + bx + c = 0$):**
-  - Sum of roots: 
-    $$r_1 + r_2 = -\frac{b}{a}$$
-  - Product of roots: 
-    $$r_1 r_2 = \frac{c}{a}$$
+## Core Formulas
+- **Division Algorithm:** `P(x) = D(x) * Q(x) + R(x)`, where `deg(R) < deg(D)`
+- **Vieta's Formulas (Quadratic `ax^2 + bx + c = 0`):**
+  - Sum of roots: `r1 + r2 = -b / a`
+  - Product of roots: `r1 * r2 = c / a`
 
 ## Python Check
 A simple script to verify Vieta's formulas for a quadratic polynomial:
@@ -23,6 +20,12 @@ def verify_vietas_quadratic(a: float, b: float, c: float, r1: float, r2: float) 
     
     actual_sum = r1 + r2
     actual_prod = r1 * r2
+    
+    eps = 1e-5
+    return abs(sum_formula - actual_sum) < eps and abs(prod_formula - actual_prod) < eps
+
+if __name__ == "__main__":
+    print("Vieta's formulas hold:", verify_vietas_quadratic(1.0, -5.0, 6.0, 2.0, 3.0))
     
     eps = 1e-5
     return abs(sum_formula - actual_sum) < eps and abs(prod_formula - actual_prod) < eps
