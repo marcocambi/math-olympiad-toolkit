@@ -5,11 +5,14 @@ Counting problems form the bedrock of combinatorics. The main question is always
 
 ## Core Formulas
 
-**Factorial:**
-$$n! = n \times (n-1) \times \dots \times 1$$
+- **Factorial:** 
+  `n! = n * (n - 1) * ... * 1`
 
-**Combinations (Order doesn't matter):**
-$$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+- **Permutations (Order matters):** 
+  `P(n, k) = n! / (n - k)!`
+
+- **Combinations (Order doesn't matter):** 
+  `C(n, k) = n! / (k! * (n - k)!)`
 
 ## Python Check
 A simple loop-based function to calculate factorials without advanced built-in shortcuts:
