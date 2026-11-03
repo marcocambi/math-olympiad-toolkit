@@ -1,4 +1,3 @@
-```markdown
 # The Pythagorean Theorem
 
 ## Quick Overview
