@@ -5,7 +5,7 @@ Similar triangles allow you to translate angle information into ratio equations 
 
 ## Core Criteria
 - **Ratio Property:** If triangle ABC is similar to triangle DEF, then corresponding sides are proportional: 
-AB / DE = BC / EF = AC / DF = k.
+ AB / DE = BC / EF = AC / DF = k.
 
 ## Python Check
 A simple script to verify if two triangles satisfy the side proportion condition for similarity:
