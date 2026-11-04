@@ -3,6 +3,8 @@
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+An open-source repository bridging rigorous competitive mathematics (Italian Mathematical Olympiads / UMI training) with computational verification using Python. Designed to provide clean theoretical write-ups and lightweight algorithmic checks for students preparing for contest math.
+
 
 ## 🚀 Getting Started & Usage
 
@@ -16,9 +18,6 @@ If you find this repository helpful for your math contest preparation:
    ```bash
    git clone [https://github.com/marcocambi/math-olympiad-toolkit.git](https://github.com/marcocambi/math-olympiad-toolkit.git)
    cd math-olympiad-toolkit
-
-
-An open-source repository bridging rigorous competitive mathematics (Italian Mathematical Olympiads / UMI training) with computational verification using Python. Designed to provide clean theoretical write-ups and lightweight algorithmic checks for students preparing for contest math.
 
 ## Repository Structure
 
