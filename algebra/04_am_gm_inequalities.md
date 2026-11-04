@@ -1,15 +1,15 @@
 # AM-GM Inequality & Contest Optimization
 
 ## Quick Overview
-Le disuguaglianze sono il pilastro dell'algebra olimpica avanzata. La disuguaglianza tra media aritmetica e geometrica (AM-GM) è lo strumento principale per risolvere problemi di massimo e minimo senza ricorrere alle derivate.
+Inequalities are a cornerstone of advanced competition algebra. The Arithmetic Mean-Geometric Mean (AM-GM) inequality is the primary tool for solving maximum and minimum problems without relying on calculus.
 
 ## Core Theory
-- **AM-GM per $n$ variabili non negative:**
+- **AM-GM for $n$ non-negative variables:**
   $$\frac{x_1 + x_2 + \dots + x_n}{n} \ge \sqrt[n]{x_1 x_2 \dots x_n}$$
-- L'uguaglianza vale se e solo se $x_1 = x_2 = \dots = x_n$.
+- Equality holds if and only if $x_1 = x_2 = \dots = x_n$.
 
 ## Python Verification
-Un semplice script per verificare la disuguaglianza AM-GM con valori casuali:
+A simple script to verify the AM-GM inequality with random values:
 
 ```python
 import random
